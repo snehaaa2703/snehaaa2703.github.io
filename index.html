@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sneha Saldur | Java Developer</title>
+<meta name="description" content="Sneha Saldur — 2025 B.E. Information Technology graduate and entry-level Java Developer.">
+<style>
+:root{--bg:#070b16;--panel:#0d1424;--panel2:#111a2d;--text:#f5f7ff;--muted:#aeb8ca;--accent:#9b6cff;--accent2:#c5a8ff;--line:rgba(255,255,255,.10)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--text);background:radial-gradient(circle at 75% 12%,rgba(155,108,255,.18),transparent 28%),radial-gradient(circle at 8% 35%,rgba(75,110,255,.10),transparent 25%),var(--bg);line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+nav{position:fixed;z-index:20;top:0;left:0;right:0;height:68px;background:rgba(7,11,22,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:100%;display:flex;align-items:center;justify-content:space-between}.logo{font-size:1.3rem;font-weight:800}.logo span{color:var(--accent)}
+.links{display:flex;gap:25px;color:#d5d9e5;font-size:.94rem}.links a:hover{color:var(--accent2)}
+.hero{min-height:100vh;padding:120px 0 60px;display:grid;align-items:center}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+.eyebrow{color:var(--accent2);font-weight:700;letter-spacing:.8px;font-size:.84rem;margin-bottom:15px}
+h1{font-size:clamp(3.2rem,7vw,5.6rem);line-height:.96;letter-spacing:-4px}.gradient{background:linear-gradient(100deg,var(--accent),#fff,var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h2{font-size:1.45rem;margin:22px 0 12px}.hero-copy{color:var(--muted);max-width:650px;font-size:1.04rem}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{padding:12px 18px;border:1px solid rgba(155,108,255,.55);border-radius:11px;font-weight:700;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:var(--accent2)}.primary{background:linear-gradient(135deg,#8e5df4,#b38aff);color:#0b0912;border:0}
+.socials{display:flex;gap:10px;margin-top:16px}.social{padding:8px 12px;border:1px solid var(--line);border-radius:9px;color:var(--muted);font-size:.88rem}.social:hover{color:var(--accent2)}
+.photo-wrap{position:relative}.photo-wrap:before{content:"";position:absolute;inset:-25px;background:radial-gradient(circle,rgba(155,108,255,.24),transparent 62%);z-index:-1}
+.photo{width:100%;max-width:510px;display:block;margin-left:auto;aspect-ratio:1/1;object-fit:cover;object-position:center;border-radius:28px;border:1px solid rgba(197,168,255,.35);box-shadow:0 25px 80px rgba(0,0,0,.45)}
+.contact-strip{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px;color:var(--muted);font-size:.9rem}.contact-strip a:hover{color:var(--accent2)}
+section{padding:85px 0}.title{font-size:2.25rem;margin-bottom:8px}.subtitle{color:var(--muted);margin-bottom:30px}
+.card{background:linear-gradient(145deg,rgba(17,26,45,.94),rgba(9,15,28,.92));border:1px solid var(--line);border-radius:18px;padding:25px}
+.skills-layout{display:grid;grid-template-columns:1fr 2fr;gap:20px}.skill-group{margin-bottom:20px}.skill-group:last-child{margin-bottom:0}.skill-group strong{display:block;color:var(--accent2);font-size:.9rem;margin-bottom:5px}.skill-group p{color:var(--muted)}
+.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project{display:flex;flex-direction:column}.project h3{font-size:1.18rem;margin-bottom:8px}.tag{color:var(--accent2);font-size:.78rem;font-weight:700;margin-bottom:13px}.project p{color:var(--muted);font-size:.93rem}.project ul{padding-left:17px;color:var(--muted);font-size:.91rem;margin:10px 0 20px}.project li{margin:5px 0}.github{margin-top:auto;display:inline-block;text-align:center;padding:9px 12px;border:1px solid rgba(155,108,255,.55);border-radius:9px;color:var(--accent2);font-weight:700;font-size:.88rem}.github:hover{background:rgba(155,108,255,.10)}
+.two{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.edu{padding:13px 0;border-bottom:1px solid var(--line)}.edu:last-child{border-bottom:0}.edu h3{font-size:1rem}.edu p{color:var(--muted);font-size:.9rem}.cert{margin:10px 0;color:var(--muted)}.cert strong{color:var(--text)}
+.contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.contact-card{border:1px solid var(--line);background:rgba(255,255,255,.025);border-radius:14px;padding:20px}.contact-card small{display:block;color:var(--muted);margin-bottom:4px}.contact-card a{color:var(--accent2);word-break:break-word}
+footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;color:var(--muted)}
+@media(max-width:900px){.links{display:none}.hero-grid,.skills-layout,.two{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.photo{margin:auto}.hero{padding-top:105px}}
+@media(max-width:600px){.contact-grid{grid-template-columns:1fr}h1{letter-spacing:-2px}.hero h2{font-size:1.2rem}}
+</style>
+</head>
+<body>
+<nav><div class="container nav"><a class="logo" href="#home">Sneha<span>.</span></a><div class="links">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</div></div></nav>
+
+<main id="home">
+<section class="hero"><div class="container hero-grid">
+<div>
+<div class="eyebrow">B.E. INFORMATION TECHNOLOGY GRADUATE · 2025 · MUMBAI</div>
+<h1>Sneha <span class="gradient">Saldur</span></h1>
+<h2>Java Developer <span style="color:var(--accent)">|</span> Software Engineer</h2>
+<p class="hero-copy">Entry-level Java Developer with practical experience building database-driven applications using Core Java, JDBC, SQL and PostgreSQL. Strong foundation in OOP, Collections, Exception Handling and DAO/DTO architecture.</p>
+<div class="actions">
+<a class="btn primary" href="Sneha_Saldur_Resume.pdf" download>↓ Download Resume</a>
+<a class="btn" href="#projects">View Projects</a>
+<a class="btn" href="mailto:saldursneha@gmail.com">Email Me</a>
+</div>
+<div class="socials">
+<a class="social" href="https://www.linkedin.com/in/snehasaldur" target="_blank">LinkedIn ↗</a>
+<a class="social" href="https://github.com/snehaaa2703" target="_blank">GitHub ↗</a>
+<a class="social" href="tel:+919324266989">+91 9324266989</a>
+</div>
+<div class="contact-strip"><span>Mumbai, India</span><span>·</span><a href="mailto:saldursneha@gmail.com">saldursneha@gmail.com</a></div>
+</div>
+<div class="photo-wrap"><img class="photo" src="sneha-professional.png" alt="Professional portrait of Sneha Saldur"></div>
+</div></section>
+
+<section id="about"><div class="container">
+<h2 class="title">About Me</h2><p class="subtitle">Focused on Java, backend development and practical problem solving.</p>
+<div class="card"><p style="color:var(--muted)">I am a B.E. Information Technology graduate from Konkan Gyanpeeth College of Engineering, with hands-on experience developing Java and database-driven applications. I enjoy building structured solutions, debugging issues and learning technologies that help create reliable software. I am currently seeking an entry-level Java Developer or software engineering opportunity where I can contribute and grow.</p></div>
+</div></section>
+
+<section id="skills"><div class="container">
+<h2 class="title">Technical Skills</h2><p class="subtitle">Skills I can discuss and demonstrate in interviews.</p>
+<div class="skills-layout">
+<div class="card">
+<div class="skill-group"><strong>Languages</strong><p>Core Java, SQL, HTML</p></div>
+<div class="skill-group"><strong>Database</strong><p>PostgreSQL, JDBC, RDBMS</p></div>
+<div class="skill-group"><strong>Java Concepts</strong><p>OOP, Collections, Exception Handling</p></div>
+</div>
+<div class="card">
+<div class="skill-group"><strong>Architecture & Framework</strong><p>DAO/DTO, Layered Architecture, Hibernate (Basics)</p></div>
+<div class="skill-group"><strong>Tools</strong><p>Git, GitHub, Eclipse, VS Code</p></div>
+<div class="skill-group"><strong>Operating System</strong><p>Linux Basics</p></div>
+</div>
+</div></div></section>
+
+<section id="projects"><div class="container">
+<h2 class="title">Featured Projects</h2><p class="subtitle">Three projects that demonstrate my practical development work.</p>
+<div class="project-grid">
+<article class="card project">
+<div class="tag">CORE JAVA · JDBC · POSTGRESQL</div><h3>Enterprise Campus Placement System</h3>
+<p>A database-driven placement management application.</p>
+<ul><li>Student, company, placement drive and job application modules.</li><li>DAO/DTO architecture with validation and exception handling.</li><li>PostgreSQL integration through JDBC.</li></ul>
+<a class="github" href="https://github.com/snehaaa2703/Enterprise-Campus-Placement-System" target="_blank">View on GitHub ↗</a>
+</article>
+<article class="card project">
+<div class="tag">CORE JAVA · JDBC · POSTGRESQL</div><h3>Employee Payroll Management System</h3>
+<p>An employee and payroll management application.</p>
+<ul><li>Employee management and payroll processing modules.</li><li>CRUD operations and salary calculations.</li><li>OOP principles including abstraction, inheritance and polymorphism.</li></ul>
+<a class="github" href="https://github.com/snehaaa2703/Employee-Payroll-Management-System" target="_blank">View on GitHub ↗</a>
+</article>
+<article class="card project">
+<div class="tag">FINAL YEAR PROJECT · DEEP LEARNING</div><h3>Diabetes Prediction System</h3>
+<p>Machine-learning based diabetes prediction project.</p>
+<ul><li>Used the PIMA Indians Diabetes Dataset.</li><li>Developed a deep learning prediction model.</li><li>Reported model accuracy of 75.97%.</li></ul>
+<a class="github" href="https://github.com/snehaaa2703/Diabetes-Prediction-System-Deep-Learning" target="_blank">View on GitHub ↗</a>
+</article>
+</div></div></section>
+
+<section id="education"><div class="container">
+<h2 class="title">Education & Certifications</h2><p class="subtitle">Academic background and additional learning.</p>
+<div class="two">
+<div class="card">
+<div class="edu"><h3>B.E. Information Technology</h3><p>Konkan Gyanpeeth College of Engineering · <strong>2021–2025</strong> · CGPA: <strong>7.17</strong></p></div>
+<div class="edu"><h3>HSC</h3><p>Model College of Science and Commerce · 2021 · 82.33%</p></div>
+<div class="edu"><h3>SSC</h3><p>Model English High School · 2019 · 73.80%</p></div>
+</div>
+<div class="card">
+<div class="tag">CERTIFICATIONS</div>
+<div class="cert">• <strong>HackerRank SQL (Basic)</strong></div>
+<div class="cert">• <strong>QSpiders Java Course Certification</strong></div>
+<br><div class="tag">STRENGTHS</div>
+<div class="cert">Problem Solving · Team Collaboration · Quick Learner · Adaptability · Communication Skills</div>
+</div>
+</div></div></section>
+
+<section id="contact"><div class="container">
+<h2 class="title">Let's Connect</h2><p class="subtitle">Open to entry-level Java Developer and software engineering opportunities.</p>
+<div class="contact-grid">
+<div class="contact-card"><small>EMAIL</small><a href="mailto:saldursneha@gmail.com">saldursneha@gmail.com</a></div>
+<div class="contact-card"><small>PHONE</small><a href="tel:+919324266989">+91 9324266989</a></div>
+<div class="contact-card"><small>LINKEDIN</small><a href="https://www.linkedin.com/in/snehasaldur" target="_blank">linkedin.com/in/snehasaldur ↗</a></div>
+<div class="contact-card"><small>GITHUB</small><a href="https://github.com/snehaaa2703" target="_blank">github.com/snehaaa2703 ↗</a></div>
+</div>
+</div></section>
+</main>
+<footer>© 2026 Sneha Saldur · Open to Entry-Level Java Developer Opportunities</footer>
+</body>
+</html>
